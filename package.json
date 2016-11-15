@@ -1,0 +1,26 @@
+{
+  "name": "express-href",
+  "version": "1.0.0",
+  "description": "Expose express request absolute URL into req.href",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kapouer/express-href.git"
+  },
+  "keywords": [
+    "express",
+    "request",
+    "url",
+    "href",
+    "plugin"
+  ],
+  "author": "Jérémy Lal <kapouer@melix.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kapouer/express-href/issues"
+  },
+  "homepage": "https://github.com/kapouer/express-href#readme"
+}
