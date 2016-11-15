@@ -4,7 +4,7 @@
   "description": "Expose express request absolute URL into req.href",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/kapouer/express-href/issues"
   },
-  "homepage": "https://github.com/kapouer/express-href#readme"
+  "homepage": "https://github.com/kapouer/express-href#readme",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "mocha": "^3.1.2"
+  }
 }
